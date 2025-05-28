@@ -1,0 +1,21 @@
+[project]
+name = "dependabot-poetry-test"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Daniel Power",email = "me@danielpower.ca"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.poetry]
+
+[tool.poetry.dependencies]
+flask = "2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+django = "4.2.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
